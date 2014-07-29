@@ -1,0 +1,4 @@
+X = [extract_image('image/12885.jpg'), extract_image('image/22706.jpg'), extract_image('image/25158.jpg'), extract_image('image/25753.jpg'), extract_image('image/30811.jpg'), extract_image('image/35501.jpg'), extract_image('image/41056.jpg'), extract_image('image/41326.jpg'), extract_image('image/41721.jpg'), extract_image('image/61121.jpg'), extract_image('image/62127.jpg'), extract_image('image/67714.jpg'), extract_image('image/68114.jpg'), extract_image('image/73553.jpg'), extract_image('image/78442.jpg'), extract_image('image/82668.jpg')];
+y = [1 2 8 8 5 2 2 7 0 6 2 5 1 5 8 2 5 7 5 3 3 0 8 1 1 3 5 5 0 1 4 1 0 5 6 4 1 3 2 6 4 1 7 2 1 6 1 1 2 1 6 2 1 2 7 6 7 7 1 4 6 8 1 1 4 7 3 5 5 3 7 8 4 4 2 8 2 6 6 8];
+X = [y; X];
+save('hack_data.mat','X')
